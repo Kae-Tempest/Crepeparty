@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Onglet</title>
+    <script rel="script" src="crepe.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h1>Crêpier 2000</h1>
+<label id="selector">
+    <p class="selector-title">Nombre de personnes: </p>
+    <input class="personne-selector" id="nbpersonne" min="1" name="nbpersonne" oninput="MakeCrepe()"
+           placeholder="nombre de personnes" type="number">
+</label>
+<div class="wrapper">
+    <h2>Ingredients</h2>
+    <div class="container ingredients">
+        <div id="farine">Farine: 300g</div>
+        <div id="oeuf">Oeuf: 3</div>
+        <div id="lait">Lait: 0.6L</div>
+        <div id="sucre">Sucre: 3 c à s</div>
+        <div id="beurre">Beurre: 50g</div>
+        <div id="huile">Huile: 2 c à s</div>
+    </div>
+    <div class="courses">
+        <h2>Liste des Courses: </h2>
+        <div class="container" id="courses">
+            <div>Il faudra 1 paquet de farine</div>
+            <div>Il faudra 1 paquet d'oeufs</div>
+            <div>Il faudra 1 brique de lait</div>
+            <div>Il faudra 1 mottes de beurre</div>
+            <div>Il faudra 1 paquet de sucre</div>
+            <div>Il faudra 1 bouteille d'huile</div>
+        </div>
+    </div>
+    <div class="recette" id="recette">
+        <h2>Recette</h2>
+        <div class="container-recette">
+            <div>
+                <h3>ÉTAPE 1</h3>
+                <p>
+                    Mettre la farine dans une terrine et former un puits.
+                </p>
+            </div>
+
+            <div>
+                <h3>ÉTAPE 2</h3>
+                <p>
+                    Y déposer les oeufs entiers, le sucre, l'huile et le beurre.
+                </p>
+            </div>
+            <div>
+                <h3>ÉTAPE 3</h3>
+                <p>
+                    Mélanger délicatement avec un fouet en ajoutant au fur et à mesure le lait. La pâte ainsi obtenue
+                    doit avoir une
+                    consistance d'un liquide légèrement épais.
+                </p>
+            </div>
+            <div>
+            <h3>ÉTAPE 4</h3>
+            <p>
+                Faire chauffer une poêle antiadhésive et la huiler très légèrement à l'aide d'un papier Essuie-tout. Y
+                verser
+                une louche de pâte, la répartir dans la poêle puis attendre qu'elle soit cuite d'un côté avant de la
+                retourner.
+                Cuire ainsi toutes les crêpes à feu doux.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
